@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .b{
+            width:130px;
+            float:right;      
+
+        }
+        .a{
+            padding:20px;
+            margin:0%;
+            background-color: pink;
+            padding-right: 400px;
+            padding-left:0px;
+        }
+        body{
+            margin:0%;
+            padding:0%;
+        }
+        #grid{
+            display:grid;
+            grid-template-columns: 150px 1fr;
+            background-color:lightskyblue;
+            height:500px;
+        }
+        #grid ul{
+            padding-right: 25px;
+            background-color:lightgreen;
+            margin-left: 10px;
+            height:100px ;
+            padding-top:10px;
+        }
+
+        #grid #contents{
+            padding-left:33px;
+        }
+    
+   </style>
+</head>
+<body>
+
+    <ul class="a">
+        로고
+        <li class="b">대메뉴3</li>
+        <li class="b">대메뉴2</li>
+        <li class="b">대메뉴1</li>
+    </ul>
+
+    <div id="grid">
+        <ul >
+            <li>서브메뉴1</li>
+            <li>서브메뉴2</li>
+            <li>서브메뉴3</li>
+        </ul>
+        
+        <div id="contents">
+            <h1>문서제목</h1>
+            내용
+            <p></p>
+            <img src="pengha2.PNG" width="200px" >
+    </div>
+</div>
+
+<div style="background-color:lightyellow ;">카피라이트</div>
+</body>
+</html>
